@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: security-demo
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security_demo?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
+    username: security_demo
+    password: test1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update       # 개발 중에는 update, 운영에선 none
+    show-sql: true           # SQL 로그 확인용
+    properties:
+      hibernate:
+        format_sql: true
