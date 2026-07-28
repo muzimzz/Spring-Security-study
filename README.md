@@ -324,6 +324,10 @@ https://cross-example.com/index.html
 https://example.com:1234  
 나머지 3개는 전부 Cross Origin이다. (Scheme, Host, Port가 다름)  
 
+### csrf, cors 공격 예시와 차이점
+<img width="706" height="450" alt="image" src="https://github.com/user-attachments/assets/960c39cd-1bbe-4d8c-8ed8-0db9edcc0d6d" />
+
+
 ### CSRF 방어 방식
 
 1. **Synchronizer Token Pattern (CSRF 토큰)**: 서버가 세션마다 예측 불가능한 토큰을 발급하고,
